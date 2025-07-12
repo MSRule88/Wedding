@@ -255,3 +255,10 @@ h6 {
     background-color: rgba(255, 255, 255, 0.2);
     color: black;
     }
+
+.divcontainerI2 {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
