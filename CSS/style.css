@@ -51,8 +51,18 @@ body > * {
 .maintextA {
   grid-column-start: 1;
   grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+
+.maintextAA {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
   text-align: center;
   padding-top: 15px;
   margin-top: 10px;
@@ -61,8 +71,19 @@ body > * {
 .maintextB {
   grid-column-start: 7;
   grid-column-end: 9;
-  grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 10px;
+}
+
+
+.maintextBB {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 2;
   text-align: center;
   padding-top: 15px;
   margin-top: 10px;
@@ -71,8 +92,8 @@ body > * {
 .maintextC {
   grid-column-start: 3;
   grid-column-end: 7;
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 3;
   text-align: center;
   padding-top: 15px;
   margin-top: 10px;
@@ -109,6 +130,15 @@ body > * {
 }
 
 h3 {
+  /* margin: 20px; */
+  margin: 11px 0 17px 0;
+  
+  color: black;
+  text-shadow: 0 13.36px 8.896px #c4b59d,0 -2px 1px #fff;
+  
+}
+
+h2 {
   /* margin: 20px; */
   margin: 11px 0 17px 0;
   
@@ -219,3 +249,9 @@ h6 {
 .xsmall {
   font-size: xx-small;
 }
+
+.buttonback{
+        backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+    }
