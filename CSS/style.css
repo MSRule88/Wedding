@@ -265,7 +265,7 @@ h6 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
- @media (max-height: 700px) or (max-width: 630px) { 
+ @media (max-height: 725px) or (max-width: 630px) { 
  
  .d-grid{
   display:grid;
