@@ -128,6 +128,9 @@ body > * {
 .aboutme-socialicons:hover {
   color: #45FFCA;
 }
+.white {
+  color: white;
+}
 
 h3 {
   /* margin: 20px; */
@@ -262,3 +265,51 @@ h6 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
+ @media (max-height: 700px) or (max-width: 630px) { 
+ 
+ .d-grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1fr);
+}
+#Card1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  
+  justify-self: center;
+  text-align: center;
+  }
+
+#Card2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  
+  justify-self: center;
+  text-align: center;
+}
+   
+#Card3 {
+  grid-column-start: 1;
+  grid-row-start: 5;
+  
+  justify-self: center;
+  text-align: center;
+}
+
+#Card4 {
+  grid-column-start: 1;
+  grid-row-start: 7;
+  
+  justify-self: center;
+  text-align: center;
+}
+.divcontainerIi {
+  display: grid;
+   .column {
+    width: 100%;
+  }
+  gap: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+ }
